@@ -10,6 +10,8 @@ function myArrayTest(){
     console.log(arr3[0]); // apple
     arr3[0] = 'avocado';
     console.log(arr3); // ['avocado', 'banana', 'cherry']
+    arr3[1] = ['1', '2', '3'];
+    console.log(arr3); // ['avocado', ['1', '2', '3'], 'cherry']
 
     //Array length
     let arr4 = [1, 2, 3];
@@ -19,6 +21,8 @@ function myArrayTest(){
     arr4.length = 2;
     console.log(arr4.length); // Outputs 2
     console.log(arr4); // Outputs [1, 2]
+    arr4.length = 4;
+    console.log(arr4); // Outputs [1, 2, empty, empty]
 
     //Array methods
     let arr5 = [1, 2, 3];

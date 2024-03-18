@@ -12,8 +12,12 @@ function myObjectTest(){
     console.log(obj1['age']); // 40
 
     let obj = {name: 'John', age: 30};
+
     delete obj.age;
     console.log(obj); // Outputs {name: "John"}
+    for(let key in obj){
+        delete obj[key];
+    }
 
 
     let obj3 = {
