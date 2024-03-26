@@ -2,18 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>IvanTest</title>
+    <style>
+        .ht{
+            color: rgb(230,87,51);
+            text-align: center;
+        }
+        button{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            font-size: xx-large;
+
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
     <script>
-        let date = new Date();
-        console.log(date);
+      function onclickFunc() {
+          alert("Hello, Ivan!");
+      }
     </script>
 </head>
 <body>
-<form>
-    用户名：<input type="text" name="username" > <br>
-    <input type="submit" value="check">
-
-</form>
+<h1 class="ht">欢迎使用Ivan测试网页</h1>
+<h3 class="ht">整个网页只有一个按钮</h3>
+<div class="container">
+    <button class="button" type="button" value="check" onclick="onclickFunc()">check</button>
+</div>
 
 </body>
 </html>
