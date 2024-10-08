@@ -22,6 +22,8 @@ function myDateFunction(){
     console.log(now.getMilliseconds()); // Gets the millisecond (0-999)
     console.log(now.getTime()); // Gets the number of milliseconds since 1970-01-01 00:00:00 UTC
 
+
+    
     let date6 = new Date();
     date6.setFullYear(2024, 0, 1);
     date6.setMonth(0, 1);
